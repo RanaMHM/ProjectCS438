@@ -7,9 +7,22 @@
 
 ## User authentication
 * **Create a user account :**
+* 
+
+The file [htmlSignIn.php](https://github.com/RanaMHM/ProjectCS438/blob/main/htmlSignIn.php) contains:
+1- Designing the html login page figure2.
+
+
+
+2- Javascript and Ajax code to verify that the username and email are not in the database:
+<hr>
 The player creates an account for himself by registering a username, email and password, the figure 1
 
 <div>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<img width="350" alt="4" alt="signup" src="https://user-images.githubusercontent.com/52053143/166150983-d581044c-3ff3-4ff3-bd64-0ed5614fea65.png" ></div>
 <div style="text-align:center;">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Figure1: Signup page</div>
 <br>
 The availability of the username and email are checked because each player must have a special username and email and it is not possible to register with them again.
+
+
+
+[SignIuDB.php](https://github.com/RanaMHM/ProjectCS438/blob/main/SignUpDB.php)
