@@ -8,7 +8,7 @@
 ## User authentication
 * **Create a user account :**
 * The file [htmlSignIn.php](https://github.com/RanaMHM/ProjectCS438/blob/main/htmlSignIn.php) contains:<br><br>
-1- Designing the html login page figure21. <br>
+1- Designing the html login page by style in [style.css](https://github.com/RanaMHM/ProjectCS438/blob/main/style.css)figure1. <br>
 <div>  <img width="565" alt="login" src="https://user-images.githubusercontent.com/52053143/166151941-2e1e6fac-43f4-45f0-94d8-de2f118dbcad.png">  </div>
 figure1: login and signup page. <br>
 
@@ -47,4 +47,4 @@ The availability of the username and email are checked because each player must 
 
 
 
-[SignIuDB.php](https://github.com/RanaMHM/ProjectCS438/blob/main/SignUpDB.php)
+[SignUpDB.php](https://github.com/RanaMHM/ProjectCS438/blob/main/SignUpDB.php)
