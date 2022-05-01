@@ -7,13 +7,42 @@
 
 ## User authentication
 * **Create a user account :**
-* The file [htmlSignIn.php](https://github.com/RanaMHM/ProjectCS438/blob/main/htmlSignIn.php) contains:
-1- Designing the html login page figure21.
+* The file [htmlSignIn.php](https://github.com/RanaMHM/ProjectCS438/blob/main/htmlSignIn.php) contains:<br><br>
+1- Designing the html login page figure21. <br>
 <div>  <img width="565" alt="login" src="https://user-images.githubusercontent.com/52053143/166151941-2e1e6fac-43f4-45f0-94d8-de2f118dbcad.png">  </div>
-figure1: login and signup page.
+figure1: login and signup page. <br>
 
 
 2- Javascript and Ajax code to verify that the username and email are not in the database:
+ > ```
+ <script> 
+    $(document).ready(function(){
+
+        $("#email").keyup(function(){
+    
+            var email = $(this).val().trim();
+      
+            if(email != ''){
+      
+               $.ajax({
+                  url: 'SignUpDB.php',
+                  type: 'POST',
+                  data: {email: email},
+                  success: function(response){
+      
+                      $('#emailStatus').html(response);
+      
+                   }
+               });
+            }else{
+               $("#emailStatus").html("");
+            }
+
+        });
+    
+     });
+
+```
 
 <br><br><hr>
 The player creates an account for himself by registering a username, email and password, the figure 1
