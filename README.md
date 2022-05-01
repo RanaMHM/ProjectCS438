@@ -9,5 +9,5 @@
 * **Create a user account :**
 The player creates an account for himself by registering a username, email and password, the figure 1
 
-<img width="473" alt="signup" src="https://user-images.githubusercontent.com/52053143/166150983-d581044c-3ff3-4ff3-bd64-0ed5614fea65.png">
+<div><img width="150" alt="4" alt="signup" src="https://user-images.githubusercontent.com/52053143/166150983-d581044c-3ff3-4ff3-bd64-0ed5614fea65.png" ></div>
 <div style="text-align:center;">Figure1: Signup page</div>
