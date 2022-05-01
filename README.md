@@ -14,32 +14,25 @@ figure1: login and signup page. <br>
 
 
 2- Javascript and Ajax code to verify that the username and email are not in the database:
- > ```
+ ```
  <script> 
     $(document).ready(function(){
-
         $("#email").keyup(function(){
-    
-            var email = $(this).val().trim();
-      
+          var email = $(this).val().trim();
             if(email != ''){
-      
+      //Ajax------
                $.ajax({
                   url: 'SignUpDB.php',
                   type: 'POST',
                   data: {email: email},
                   success: function(response){
-      
                       $('#emailStatus').html(response);
-      
                    }
                });
             }else{
                $("#emailStatus").html("");
             }
-
-        });
-    
+        });    
      });
 
 ```
