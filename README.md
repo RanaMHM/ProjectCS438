@@ -6,4 +6,4 @@
 <br><br>
 
 ## User authentication
-**Create a user account :
+* **Create a user account :
